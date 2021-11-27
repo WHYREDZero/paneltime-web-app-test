@@ -80,8 +80,8 @@
         <h1>{{ page.title }}</h1>
         <h2 style="color: teal;">{{ page.event }}</h2>
         <div id="hide-on-start">
-			<div class="starting-in" id="hide-on-start1">Starting In</div>
-			<div class="time" id="hide-on-start2">
+			<div class="starting-in">Starting In</div>
+			<div class="time">
 				<div style="color: teal" id="days">0</div>
 				<div>:</div>
 				<div style="color: teal" id="hours">0</div>
@@ -90,7 +90,7 @@
 				<div>:</div>
 				<div style="color: teal" id="seconds">0</div>
 			</div>
-			<div class="time-base" id="hide-on-start3">
+			<div class="time-base">
 				<div>days</div>
 				<div></div>
 				<div>hours</div>
@@ -116,9 +116,7 @@
             } 
             else 
             {
-                document.getElementById("hide-on-start1").style.display = "none";
-                document.getElementById("hide-on-start2").style.display = "none"; 
-                document.getElementById("hide-on-start3").style.display = "none"; 
+                document.getElementById("hide-on-start").style.display ="none"; 
                 document.getElementById("reg-join").href = "{{ page.join }}";
                 document.getElementById("reg-join").innerHTML = "Join Here";
             }
