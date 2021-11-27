@@ -34,6 +34,12 @@
                 margin: 0%;
                 padding: 1%;
             }
+            .starting-in{
+                font-size: 4.5vw;
+                margin: 0%;
+                padding: 1%;
+                padding-left: 5%;
+            }
             .time{
                 display: grid;
                 text-align: center;
@@ -73,7 +79,7 @@
     <body>
         <h1>{{ page.title }}</h1>
         <h2 style="color: teal;">{{ page.event }}</h2>
-        <h6 id="hide-on-start1">Starting In</h6>
+        <div class="starting-in" id="hide-on-start1">Starting In</div>
         <div class="time" id="hide-on-start2">
             <div style="color: teal;" id="days">0</div>
             <div>:</div>
