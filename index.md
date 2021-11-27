@@ -1,6 +1,6 @@
 ---
 title: PanelTime
-layout: widget
+layout: home
 event: Test Event
 register: https://bit.ly/PanelTime
 join: https://google.meet
